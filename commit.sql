@@ -38,8 +38,7 @@
 
 -- GRANT SELECT ON Books TO martin;
 
--- DELETE FROM Books
--- WHERE book_id = 101;
+DELETE FROM Books
+WHERE book_id = 101;
 
--- COMMIT;
-
+COMMIT;
